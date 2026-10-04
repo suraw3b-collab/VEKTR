@@ -1,0 +1,26 @@
+HTTrack3.50-5 launched on Sun, 04 Oct 2026 18:28:18 at https://vektr.fr/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2%f#f -F "Mozilla/5.0 (compatible; HTTrack; +https://www.httrack.com/)" -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l "fr, en, *" https://vektr.fr/ -O1 "C:\Mes Sites Web\https___vektr.fr_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:28:39	Warning: 	Link https://vektr.fr/checkout?plan=pro not scanned (follow robots meta tag)
+18:28:39	Warning: 	Link https://vektr.fr/checkout?plan=solo not scanned (follow robots meta tag)
+18:28:39	Warning: 	Link https://vektr.fr/checkout?plan=elite not scanned (follow robots meta tag)
+18:28:46	Warning: 	Permanent Redirect for https://vektr.fr/ROOT/node_modules/next/dist/compiled/process/
+18:28:46	Warning: 	File has moved from https://vektr.fr/ROOT/node_modules/next/dist/compiled/process/ to /ROOT/node_modules/next/dist/compiled/process
+18:28:46	Warning: 	Permanent Redirect for https://vektr.fr/_next/
+18:28:46	Warning: 	File has moved from https://vektr.fr/_next/ to /_next
+18:28:46	Error: 	"Not Found" (404) at link https://vektr.fr/static/chunks/0k6c9i47ki3cm.js (from https://vektr.fr/_next/static/chunks/turbopack-11w_pp3-oe-r2.js)
+18:28:46	Error: 	"Not Found" (404) at link https://vektr.fr/static/chunks/0t7y3_l3bok2e.js (from https://vektr.fr/_next/static/chunks/turbopack-11w_pp3-oe-r2.js)
+18:28:46	Error: 	"Not Found" (404) at link https://vektr.fr/static/chunks/0obu87g1cptnb.js (from https://vektr.fr/_next/static/chunks/turbopack-11w_pp3-oe-r2.js)
+18:28:46	Error: 	"Not Found" (404) at link https://vektr.fr/static/chunks/128aahewwf1we.js (from https://vektr.fr/_next/static/chunks/turbopack-11w_pp3-oe-r2.js)
+18:28:53	Error: 	"Not Found" (404) at link https://vektr.fr/ROOT/node_modules/next/dist/compiled/process (from https://vektr.fr/ROOT/node_modules/next/dist/compiled/process/)
+18:28:53	Error: 	"Not Found" (404) at link https://vektr.fr/_next (from https://vektr.fr/_next/)
+18:28:53	Error: 	"Not Found" (404) at link https://vektr.fr/stripe.js (from https://vektr.fr/_next/static/chunks/0al3tzkyrr8ia.js)
+18:28:53	Error: 	"Not Found" (404) at link https://vektr.fr/Failed to load Stripe.js (from https://vektr.fr/_next/static/chunks/0al3tzkyrr8ia.js)
+
+HTTrack Website Copier/3.50-5 mirror complete in 35 seconds : 123 links scanned, 112 files written (7085875 bytes overall) [4469106 bytes received at 127688 bytes/sec], 4054887 bytes transferred using HTTP compression in 68 files, ratio 26%, 41.0 requests per connection
+(8 errors, 7 warnings, 0 messages)
